@@ -9,13 +9,18 @@ html {
   font-size: 14px;
   font-weight: 600;
 }
+.fw-5 {
+  font-weight: 500;
+}
+.fs-14 {
+  font-size: 14px;
+}
 /* Header Section  */
-header {
+.hero-section {
   background: #264653;
 }
 .purchase-btn {
   background: #e76f51;
-  font-weight: 500;
 }
 /* ============Featured Bikes===========  */
 .featured-bike p {
@@ -42,6 +47,3 @@ p > .fas,
 .far {
   color: #e76f51;
 }
-/* =============
-Frequently Asked Questions Section
-========== */
