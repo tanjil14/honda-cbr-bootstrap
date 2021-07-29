@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+/* utilities */
+body,
+html {
+  font-family: "Poppins", sans-serif;
+}
+.smallBold-fnt {
+  font-size: 14px;
+  font-weight: 600;
+}
+/* Header Section  */
+header {
+  background: #264653;
+}
+.purchase-btn {
+  background: #e76f51;
+  font-weight: 500;
+}
+/* ============Featured Bikes===========  */
+.featured-bike p {
+  color: #e76f51;
+  position: relative;
+}
+.featured-bike p::after {
+  content: " ";
+  left: 50%;
+  bottom: -10%;
+  width: 5vw;
+  transform: translateX(-50%);
+  position: absolute;
+  border-bottom: 1px solid #e76f51;
+  border-radius: 1px;
+}
+.featured-bike .card .gray-scale {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+/* ============Client Section=============== */
+h1 > span,
+p > .fas,
+.far {
+  color: #e76f51;
+}
+/* =============
+Frequently Asked Questions Section
+========== */
